@@ -1,0 +1,41 @@
+name: plantops
+description: "PlantOps - Flutter Plant Nursery Management System"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.5.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Firebase Core (Required for all Firebase services)
+  firebase_core: ^3.8.1
+  
+  # Firebase Cloud Messaging (Push notifications)
+  firebase_messaging: ^15.1.5
+  
+  # Cloud Firestore (Database)
+  cloud_firestore: ^5.5.2
+  
+  # Local Notifications (Android/iOS)
+  flutter_local_notifications: ^18.0.1
+  
+  # UI
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  # Uncomment and add assets when needed
+  # assets:
+  #   - assets/images/
+  #   - assets/icons/
